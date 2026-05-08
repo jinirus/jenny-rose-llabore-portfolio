@@ -309,3 +309,21 @@ h1, h2, h3 {
 .card__link:hover {
   opacity: 0.7;
 }
+
+/* === WHAT I DO === */
+.what-i-do {
+  padding: var(--section-padding) 0;
+}
+
+.what-i-do .section__title {
+  margin-bottom: 40px;
+}
+
+/* === WORK SAMPLES === */
+.work {
+  padding: var(--section-padding) 0;
+}
+
+.work .section__title {
+  margin-bottom: 8px;
+}
