@@ -226,3 +226,24 @@ h1, h2, h3 {
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* === ABOUT === */
+.about {
+  padding: var(--section-padding) 0;
+}
+
+.about .section__title {
+  margin-bottom: 32px;
+}
+
+.about__content {
+  max-width: 720px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__content p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
