@@ -188,3 +188,41 @@ h1, h2, h3 {
 .nav__mobile-links a:last-child {
   border-bottom: none;
 }
+
+/* === HERO === */
+.hero {
+  padding: var(--section-padding) 0;
+  text-align: center;
+}
+
+.hero__name {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  color: var(--color-primary);
+  margin-bottom: 12px;
+}
+
+.hero__role {
+  font-size: 1.15rem;
+  color: var(--color-muted);
+  margin-bottom: 32px;
+  letter-spacing: 0.02em;
+}
+
+.hero__quote {
+  font-family: var(--font-heading);
+  font-style: italic;
+  font-size: clamp(1rem, 2.5vw, 1.2rem);
+  color: var(--color-primary);
+  max-width: 680px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+  border: none;
+  padding: 0;
+}
+
+.hero__actions {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
