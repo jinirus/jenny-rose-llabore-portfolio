@@ -422,3 +422,45 @@ h1, h2, h3 {
   color: rgba(255, 255, 255, 0.4);
   font-size: 0.8rem;
 }
+
+/* === RESPONSIVE === */
+
+/* Tablet and below */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 48px;
+  }
+
+  .nav__links {
+    display: none;
+  }
+
+  .nav__mobile {
+    display: block;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Show desktop nav, hide mobile nav */
+@media (min-width: 769px) {
+  .nav__mobile {
+    display: none;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 480px) {
+  .hero__actions,
+  .contact__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+}
